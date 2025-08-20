@@ -1,12 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <title>About</title>
-</head>
-<body>
-  <h1>Über mich</h1>
-  <p>Dies ist die About-Seite.</p>
-  <a href="index.html">Zurück zur Startseite</a>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Über uns – Lichtblicke</title>
+    <meta name="description" content="Erfahre mehr über die fiktive Person hinter der Webseite 'Lichtblicke'." />
+    <!-- Die CSS-Verknüpfung bleibt, um das Design beizubehalten -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Zum Inhalt springen</a>
+    <a href="index.html">Zur Startseite</a>
+
+    <header class="site-header glass">
+      <div class="container header-inner">
+        <div class="brand">
+          <span class="logo" aria-hidden="true">🌿</span>
+          <span class="brand-name">Lichtblicke</span>
+        </div>
+        <nav class="nav" aria-label="Hauptnavigation">
+          <a href="index.html#was-ist" class="nav-link">Was ist Depression?</a>
+          <a href="index.html#zeichen" class="nav-link">Anzeichen</a>
+          <a href="index.html#hilfe" class="nav-link">Hilfe finden</a>
+          <a href="index.html#ressourcen" class="nav-link">Ressourcen</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero container card">
+        <div class="hero-content">
+          <h1>Hinter Lichtblicke. <span class="soft">Meine Geschichte.</span></h1>
+          <p class="lead">
+            Hallo, ich bin Alex. Ich habe diese Website geschaffen, um eine helfende Hand zu reichen und wertvolle Informationen zu teilen, die mir selbst in einer dunklen Zeit geholfen haben.
+          </p>
+          <div class="actions">
+            <a href="#meine-mission" class="btn btn-primary">Meine Mission</a>
+            <a href="#mein-weg" class="btn btn-ghost">Mein Weg</a>
+          </div>
+          <p class="disclaimer">
+            Disclaimer: Dies ist eine fiktive, illustrative Seite.
+          </p>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <!-- Ein Blob für visuellen Effekt -->
+          <div class="blob"></div>
+          <div class="blob blob-2"></div>
+        </div>
+      </section>
+
+      <!-- Meine Mission -->
+      <section id="meine-mission" class="container grid-2">
+        <article class="card">
+          <h2>Meine Mission</h2>
+          <p>
+            Mein Ziel ist es, einen Raum der Hoffnung zu schaffen. Ich möchte zeigen, dass Depressionen keine Charakterschwäche sind, sondern eine Krankheit, die behandelt werden kann. Mit 'Lichtblicke' will ich das Stigma reduzieren und seriöse, leicht zugängliche Informationen bereitstellen.
+          </p>
+          <ul class="list">
+            <li>Aufklärung, um falsche Vorstellungen zu korrigieren.</li>
+            <li>Mut machen, um den ersten Schritt zur Hilfe zu wagen.</li>
+            <li>Ein Netzwerk aufbauen, in dem man sich verstanden fühlt.</li>
+          </ul>
+        </article>
+
+        <aside class="card tip">
+          <h3>Eine persönliche Anmerkung</h3>
+          <p>
+            Es war ein langer Weg, aber ich habe gelernt, dass es in Ordnung ist, nicht in Ordnung zu sein. Die Unterstützung von Freunden, Familie und Profis hat mein Leben verändert. Jeder kann diesen Weg gehen.
+          </p>
+          <a href="#kontakt" class="btn btn-secondary">Kontakt</a>
+        </aside>
+      </section>
+
+      <!-- Mein Weg -->
+      <section id="mein-weg" class="section-alt">
+        <div class="container">
+          <h2>Mein Weg zur Genesung</h2>
+          <div class="cards-3">
+            <article class="card feature">
+              <h3>Erste Anzeichen</h3>
+              <p>Überwältigende Traurigkeit, die nicht verschwand, und der Verlust von Freude an meinen Hobbys.</p>
+            </article>
+            <article class="card feature">
+              <h3>Schritt zur Hilfe</h3>
+              <p>Der mutigste Schritt war, mit einer Vertrauensperson und dann mit einem Arzt zu sprechen.</p>
+            </article>
+            <article class="card feature">
+              <h3>Heute</h3>
+              <p>Ich lebe ein erfülltes Leben, habe gelernt, auf mich zu achten und meine Erfahrungen zu teilen.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kontakt -->
+      <section id="kontakt" class="container grid-2">
+        <article class="card">
+          <h2>Kontakt</h2>
+          <p>
+            Ich teile meine Geschichte hier, um dir Mut zu machen. Wenn du Fragen hast oder einfach nur reden möchtest, zögere nicht, die Ressourcen auf der Startseite zu nutzen. Sie sind da, um dir zu helfen.
+          </p>
+          <p>
+            Folge mir auf meinen sozialen Kanälen (fiktiv):
+          </p>
+          <div class="cta-stack">
+            <a class="btn btn-primary" href="#">Fiktives Twitter</a>
+            <a class="btn btn-outline" href="#">Fiktives Instagram</a>
+          </div>
+        </article>
+
+        <aside class="card soothing">
+          <h3>Wir sind nicht allein.</h3>
+          <p>
+            Die Stärke liegt darin, Schwäche zuzulassen und sich auf den Weg zur Heilung zu begeben. Jeder kleine Schritt ist ein Sieg.
+          </p>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Lichtblicke – Informationsseite rund um Depressionen.</p>
+        <p class="small">Diese Seite bietet Informationen und ersetzt keine professionelle Behandlung.</p>
+      </div>
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
 </html>

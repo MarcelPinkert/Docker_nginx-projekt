@@ -1,3 +1,3 @@
 FROM nginx:alpine
 COPY src/ /usr/share/nginx/html/
-EXPOSE 81
+EXPOSE 8081:80
